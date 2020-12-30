@@ -10,7 +10,7 @@ Layout describes components of your web page using content enclosed between begi
 
 `
 begin component
-	**more components and content**
+	more components and content
 end component
 `
 The begin and end words should be followed by matching labels to begin and end a component as shown above.
