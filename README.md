@@ -8,11 +8,11 @@ Layout is a lightweight markup language that builds interactive web pages
 
 Layout describes components of your web page using content enclosed between begin and end words
 
-`
-begin component
-	more components and content
-end component
-`
+	`
+	begin component
+		more components and content
+	end component
+	`
 The begin and end words should be followed by matching labels to begin and end a component as shown above.
 
 Layout supports few components, making it easy to remember and work with. Some components are visible on the web page and others are not.
@@ -39,23 +39,23 @@ There are two types of visible components: *structural* and *content*. The final
 	4. website
 	5. button
 
-`
-begin layout
-	begin section
-		begin row 1
-			begin column 1
-				# visible content here
-			end column 1
-			begin column 2
-				# visible content here
-			end column 2
-		end row 1
-		begin row 2
-			# more components here
-		end row 2
-	end section
-end layout
-`
+	`
+	begin layout
+		begin section
+			begin row 1
+				begin column 1
+					# visible content here
+				end column 1
+				begin column 2
+					# visible content here
+				end column 2
+			end row 1
+			begin row 2
+				# more components here
+			end row 2
+		end section
+	end layout
+	`
 
 ## Rows and Columns
 
