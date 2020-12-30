@@ -39,23 +39,25 @@ There are two types of visible components: *structural* and *content*. The final
 	4. website
 	5. button
 
+Example:
+
 	`
 	begin layout
 		begin section
 			begin row 1
 				begin column 1
-					# visible content here
+					visible content here
 				end column 1
 				begin column 2
-					# visible content here
+					visible content here
 				end column 2
 			end row 1
 			begin row 2
-				# more components here
+				more components here
 			end row 2
 		end section
 	end layout
-	`
+		`
 
 ## Rows and Columns
 
