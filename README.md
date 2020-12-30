@@ -10,7 +10,7 @@ Layout describes components of your web page using content enclosed between begi
 
 `
 begin component
-	*more components and content*
+	**more components and content**
 end component
 `
 The begin and end words should be followed by matching labels to begin and end a component as shown above.
@@ -44,14 +44,14 @@ begin layout
 	begin section
 		begin row 1
 			begin column 1
-				*visible content here*
+				# visible content here
 			end column 1
 			begin column 2
-				*visible content here*
+				# visible content here
 			end column 2
 		end row 1
 		begin row 2
-			*more components here*
+			# more components here
 		end row 2
 	end section
 end layout
