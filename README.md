@@ -71,12 +71,12 @@ Columns make use of content types followed by the value as shown below:
 		value photo.png
 	end column 1
 	`
-	This means that photo.png is a picture in the same directory as the file.
-	
-	## Automatic values
-	
-	Instead of specifying the value as photo.png, you can specify the value as auto and Layout will automatically use an image with the name that matches the row and column number
-	
+This means that photo.png is a picture in the same directory as the file.
+
+## Automatic values
+
+Instead of specifying the value as photo.png, you can specify the value as auto and Layout will automatically use an image with the name that matches the row and column number
+
 	`
 	begin row 2
 		begin column 1
@@ -85,10 +85,10 @@ Columns make use of content types followed by the value as shown below:
 		end column 1
 	end row 2
 	`
-	
-	The code above assumes there is an image named r2c1.png 
-		- the extention ".png" does not matter, it can also be r2c1.jpg and this would still work.
-		- automatic values can only be used for content types *image* and *video*
+
+The code above assumes there is an image named r2c1.png 
+	- the extention ".png" does not matter, it can also be r2c1.jpg and this would still work.
+	- automatic values can only be used for content types *image* and *video*
 
 ## Styles
 
